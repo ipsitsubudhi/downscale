@@ -1,0 +1,113 @@
+Package: vcpkg-cmake-config
+Version: 2022-02-06
+Port-Version: 1
+Architecture: x64-linux
+Multi-Arch: same
+Abi: df38c9b19cc47b36ee4a13a2ea0e1221d91f48e14a53abd74fc85a1d932e8769
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2023-05-04
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 5d63033154ac260e035cc8e4ca023523cb793080536245442ffc3a0761ebb458
+Status: install ok installed
+
+Package: fmt
+Version: 10.2.1
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: e84409c12a40c32372e1795cd7896cadc7fadbfbdc0657d101550c5ab5f12181
+Description: Formatting library for C++. It can be used as a safe alternative to printf or as a fast alternative to IOStreams.
+Status: install ok installed
+
+Package: glfw3
+Version: 3.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 15c792f95e9a916539e648efd6cdf2ac48f22b019dbfa4a4c19f86bbbb716b8f
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: install ok installed
+
+Package: imgui
+Version: 1.90.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 1c5c4d3ebc8a23561fb2a29150dee294c50fe07dc9fef90b309a221245aefe08
+Description: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies.
+Status: install ok installed
+
+Package: imgui
+Feature: glfw-binding
+Depends: glfw3
+Architecture: x64-linux
+Multi-Arch: same
+Description: Make available GLFW binding
+Status: install ok installed
+
+Package: imgui
+Feature: opengl3-binding
+Architecture: x64-linux
+Multi-Arch: same
+Description: Make available OpenGL3/ES/ES2 (modern) binding
+Status: install ok installed
+
+Package: implot
+Version: 0.16
+Depends: imgui, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 1f020501dc7cfd66dd6fe77f876670fd69f8a187b919b92125dad0bce349f517
+Description: Advanced 2D Plotting for Dear ImGui
+Status: install ok installed
+
+Package: nlohmann-json
+Version: 3.11.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: c5d775d9af72e67c8fc9c9d07268ff43d81d654022772e06d21060aa3297be62
+Description: JSON for Modern C++
+Status: install ok installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2023-12-31
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 9e1b77eeeffcf364bed5b69bea6b606f963d606026bf140cd726ce4ec71b1575
+Status: install ok installed
+
+Package: openssl
+Version: 3.2.1
+Depends: vcpkg-cmake, vcpkg-cmake-config, vcpkg-cmake-get-vars
+Architecture: x64-linux
+Multi-Arch: same
+Abi: ba7f60291f23c38b3ba95548fe7a3b345fe1a5f41de3df4b43147421d5c930e9
+Description: OpenSSL is an open source project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.
+Status: install ok installed
+
+Package: libuuid
+Version: 1.0.3
+Port-Version: 14
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 3ad5ceca81cd00e3ff986a3c733b7bafd51d32624288257871b39e639c393025
+Description: Universally unique id library
+Status: install ok installed
+
+Package: paho-mqtt
+Version: 1.3.13
+Port-Version: 1
+Depends: libuuid, openssl, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 62f831a6bd31e2e54952415e173874903228a66bb703ddafafc6f85ee6c8573d
+Description: Paho project provides open-source client implementations of MQTT and MQTT-SN messaging protocols aimed at new, existing, and emerging applications for the Internet of Things
+Status: install ok installed
+

@@ -1,0 +1,21 @@
+# ninja log v5
+5555	5576	1750140670458546049	/home/ipsit-p-subudhi/Desktop/implot_demos/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	ad116653c4c6c15e
+5555	5576	1750140670458546049	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	ad116653c4c6c15e
+5534	5555	1750140670436546014	/home/ipsit-p-subudhi/Desktop/implot_demos/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	10a86b2f1881b3e
+5534	5555	1750140670436546014	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	10a86b2f1881b3e
+5515	5534	1750140670415545980	/home/ipsit-p-subudhi/Desktop/implot_demos/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	bff435c624983c04
+5515	5534	1750140670415545980	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	bff435c624983c04
+5495	5515	1750140670396545949	/home/ipsit-p-subudhi/Desktop/implot_demos/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	cf5a0fae6855aa23
+5616	5647	1750140670529546164	/home/ipsit-p-subudhi/Desktop/implot_demos/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	960ede75da3f0eea
+21	5495	1750140670376545917	/home/ipsit-p-subudhi/Desktop/implot_demos/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	a731a25d67ee0803
+5576	5596	1750140670478546082	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	ce207db35b667d2d
+5616	5647	1750140670529546164	/home/ipsit-p-subudhi/Desktop/implot_demos/build/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	960ede75da3f0eea
+5596	5616	1750140670497546112	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	e5b1182d999a232d
+5616	5647	1750140670529546164	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	960ede75da3f0eea
+5576	5596	1750140670478546082	/home/ipsit-p-subudhi/Desktop/implot_demos/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	ce207db35b667d2d
+5596	5616	1750140670497546112	/home/ipsit-p-subudhi/Desktop/implot_demos/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	e5b1182d999a232d
+1	21	1750140664903537077	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	d7e4a3c4420db68e
+1	21	1750140664903537077	/home/ipsit-p-subudhi/Desktop/implot_demos/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	d7e4a3c4420db68e
+5616	5647	1750140670529546164	CMakeFiles/curl-populate-complete	960ede75da3f0eea
+21	5495	1750140670376545917	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	a731a25d67ee0803
+5495	5515	1750140670396545949	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	cf5a0fae6855aa23

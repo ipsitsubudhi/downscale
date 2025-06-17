@@ -1,0 +1,66 @@
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+The following packages are already installed:
+    fmt:x64-linux@10.2.1#1 -- git+https://github.com/microsoft/vcpkg@74cfe848ded3d9610b11e442aa6b2341cfa65b1b
+    glfw3:x64-linux@3.4 -- git+https://github.com/microsoft/vcpkg@fcbaa3b4073da7a24e20e043164075512f027d2d
+    imgui[core,glfw-binding,opengl3-binding]:x64-linux@1.90.2 -- git+https://github.com/microsoft/vcpkg@d9be79046f87d6b17d50967e3b76f2460e0d1bf3
+    implot:x64-linux@0.16 -- git+https://github.com/microsoft/vcpkg@688b48b9fc371ad59a57d92b05d7fd3699c4a57e
+  * libuuid:x64-linux@1.0.3#14 -- git+https://github.com/microsoft/vcpkg@09be6774f518692bc418aa03623cc9dbc19e6516
+    nlohmann-json:x64-linux@3.11.3 -- git+https://github.com/microsoft/vcpkg@a728b86fa36d4885a4c57c79432660950644d6d4
+  * openssl:x64-linux@3.2.1 -- git+https://github.com/microsoft/vcpkg@53fb72a19981a3439cd569f58b722ca6cd26e23d
+    paho-mqtt:x64-linux@1.3.13#1 -- git+https://github.com/microsoft/vcpkg@7ea6a82c6e59b0300a88ba3ce22c81cc0346af9f
+  * vcpkg-cmake:x64-linux@2023-05-04 -- git+https://github.com/microsoft/vcpkg@88a7058fc7fa73a9c4c99cfcae9d79e2abf87a5a
+  * vcpkg-cmake-config:x64-linux@2022-02-06#1 -- git+https://github.com/microsoft/vcpkg@8d54cc4f487d51b655abec5f9c9c3f86ca83311f
+  * vcpkg-cmake-get-vars:x64-linux@2023-12-31 -- git+https://github.com/microsoft/vcpkg@725c841810ceb8de33da68ea879eb8f0b4d6c94c
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+glfw3 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glfw3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glfw)
+
+glfw3 provides pkg-config modules:
+
+  # A multi-platform library for OpenGL, window and input
+  glfw3
+
+imgui provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(imgui CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE imgui::imgui)
+
+implot provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(implot CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE implot::implot)
+
+The package nlohmann-json provides CMake targets:
+
+    find_package(nlohmann_json CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE nlohmann_json::nlohmann_json)
+
+The package nlohmann-json can be configured to not provide implicit conversions via a custom triplet file:
+
+    set(nlohmann-json_IMPLICIT_CONVERSIONS OFF)
+
+For more information, see the docs here:
+    
+    https://json.nlohmann.me/api/macros/json_use_implicit_conversions/
+
+paho-mqtt provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(eclipse-paho-mqtt-c CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE eclipse-paho-mqtt-c::paho-mqtt3a-static eclipse-paho-mqtt-c::paho-mqtt3c-static eclipse-paho-mqtt-c::paho-mqtt3as-static eclipse-paho-mqtt-c::paho-mqtt3cs-static)
+
+All requested installations completed successfully in: 183 us

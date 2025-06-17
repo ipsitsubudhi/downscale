@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: iir
+Description: IIR filter library.
+Version: 1.9.5
+URL: https://www.berndporr.me.uk/iir/
+Libs: -L${libdir} -liir
+Cflags: -I${includedir}

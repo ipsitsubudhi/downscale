@@ -1,0 +1,524 @@
+Performing Curl Test HAVE_FSETXATTR_6 failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2f80f/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_2f80f.dir/build.make CMakeFiles/cmTC_2f80f.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f80f.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_FSETXATTR_6  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_2f80f.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:543:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  543 | main() {
+      | ^~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:544:3: error: too many arguments to function ‘fsetxattr’
+  544 |   fsetxattr(0, 0, 0, 0, 0, 0);
+      |   ^~~~~~~~~
+In file included from /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:541:
+/usr/include/x86_64-linux-gnu/sys/xattr.h:54:12: note: declared here
+   54 | extern int fsetxattr (int __fd, const char *__name, const void *__value,
+      |            ^~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_2f80f.dir/build.make:78: CMakeFiles/cmTC_2f80f.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2f80f/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_31901/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_31901.dir/build.make CMakeFiles/cmTC_31901.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31901.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_31901.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:321:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  321 | main ()
+      | ^~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:326:24: warning: implicit declaration of function ‘ioctlsocket’ [-Wimplicit-function-declaration]
+  326 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                        ^~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:326:24: warning: nested extern declaration of ‘ioctlsocket’ [-Wnested-externs]
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:326:44: error: ‘FIONBIO’ undeclared (first use in this function)
+  326 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                                            ^~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:326:44: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_31901.dir/build.make:78: CMakeFiles/cmTC_31901.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_31901/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8c9bc/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_8c9bc.dir/build.make CMakeFiles/cmTC_8c9bc.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c9bc.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_8c9bc.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:350:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  350 | main ()
+      | ^~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:354:13: warning: implicit declaration of function ‘IoctlSocket’ [-Wimplicit-function-declaration]
+  354 |     if(0 != IoctlSocket(0, 0, 0))
+      |             ^~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:354:13: warning: nested extern declaration of ‘IoctlSocket’ [-Wnested-externs]
+Linking C executable cmTC_8c9bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c9bc.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H CMakeFiles/cmTC_8c9bc.dir/CurlTests.c.o -o cmTC_8c9bc  /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+/usr/bin/ld: CMakeFiles/cmTC_8c9bc.dir/CurlTests.c.o: in function `main':
+CurlTests.c:(.text+0x1d): undefined reference to `IoctlSocket'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8c9bc.dir/build.make:101: cmTC_8c9bc] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8c9bc/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_582aa/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_582aa.dir/build.make CMakeFiles/cmTC_582aa.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_582aa.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_582aa.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:377:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  377 | main ()
+      | ^~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:382:17: warning: implicit declaration of function ‘ioctlsocket’ [-Wimplicit-function-declaration]
+  382 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                 ^~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:382:17: warning: nested extern declaration of ‘ioctlsocket’ [-Wnested-externs]
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:382:32: error: ‘FIONBIO’ undeclared (first use in this function)
+  382 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                                ^~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:382:32: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_582aa.dir/build.make:78: CMakeFiles/cmTC_582aa.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_582aa/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9a6cb/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_9a6cb.dir/build.make CMakeFiles/cmTC_9a6cb.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a6cb.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_9a6cb.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:405:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  405 | main ()
+      | ^~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:409:17: warning: implicit declaration of function ‘ioctlsocket’ [-Wimplicit-function-declaration]
+  409 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                 ^~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:409:17: warning: nested extern declaration of ‘ioctlsocket’ [-Wnested-externs]
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:409:32: error: ‘FIONBIO’ undeclared (first use in this function)
+  409 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                                ^~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:409:32: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_9a6cb.dir/build.make:78: CMakeFiles/cmTC_9a6cb.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9a6cb/fast] Error 2
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ade9c/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_ade9c.dir/build.make CMakeFiles/cmTC_ade9c.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ade9c.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_ade9c.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:503:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  503 | main ()
+      | ^~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:505:43: error: ‘SO_NONBLOCK’ undeclared (first use in this function); did you mean ‘SOCK_NONBLOCK’?
+  505 |         if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+      |                                           ^~~~~~~~~~~
+      |                                           SOCK_NONBLOCK
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:505:43: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_ade9c.dir/build.make:78: CMakeFiles/cmTC_ade9c.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ade9c/fast] Error 2
+
+
+Performing Curl Test HAVE_O_NONBLOCK failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_022b6/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_022b6.dir/build.make CMakeFiles/cmTC_022b6.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_022b6.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_O_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_022b6.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:618: warning: ISO C forbids an empty translation unit [-Wpedantic]
+Linking C executable cmTC_022b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_022b6.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_O_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H CMakeFiles/cmTC_022b6.dir/CurlTests.c.o -o cmTC_022b6  /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_022b6.dir/build.make:101: cmTC_022b6] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_022b6/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYADDR_R_5 failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a606f/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_a606f.dir/build.make CMakeFiles/cmTC_a606f.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a606f.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYADDR_R_5  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_a606f.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:96:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   96 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:106:23: error: storage size of ‘hdata’ isn’t known
+  106 |   struct hostent_data hdata;
+      |                       ^~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:127:8: error: too few arguments to function ‘gethostbyaddr_r’
+  127 |   rc = gethostbyaddr_r(address, length, type, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:93:
+/usr/include/netdb.h:170:12: note: declared here
+  170 | extern int gethostbyaddr_r (const void *__restrict __addr, __socklen_t __len,
+      |            ^~~~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:106:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+  106 |   struct hostent_data hdata;
+      |                       ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_a606f.dir/build.make:78: CMakeFiles/cmTC_a606f.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a606f/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYADDR_R_7 failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_44aca/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_44aca.dir/build.make CMakeFiles/cmTC_44aca.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44aca.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYADDR_R_7  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_44aca.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:96:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   96 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:131:65: warning: passing argument 7 of ‘gethostbyaddr_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+  131 |   hp = gethostbyaddr_r(address, length, type, &h, buffer, 8192, &h_errnop);
+      |                                                                 ^~~~~~~~~
+      |                                                                 |
+      |                                                                 int *
+In file included from /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:93:
+/usr/include/netdb.h:174:57: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  174 |                             struct hostent **__restrict __result,
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:131:8: error: too few arguments to function ‘gethostbyaddr_r’
+  131 |   hp = gethostbyaddr_r(address, length, type, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+/usr/include/netdb.h:170:12: note: declared here
+  170 | extern int gethostbyaddr_r (const void *__restrict __addr, __socklen_t __len,
+      |            ^~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_44aca.dir/build.make:78: CMakeFiles/cmTC_44aca.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_44aca/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYADDR_R_5_REENTRANT failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4d51/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_d4d51.dir/build.make CMakeFiles/cmTC_d4d51.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4d51.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYADDR_R_5_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_d4d51.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:96:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   96 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:106:23: error: storage size of ‘hdata’ isn’t known
+  106 |   struct hostent_data hdata;
+      |                       ^~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:127:8: error: too few arguments to function ‘gethostbyaddr_r’
+  127 |   rc = gethostbyaddr_r(address, length, type, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:93:
+/usr/include/netdb.h:170:12: note: declared here
+  170 | extern int gethostbyaddr_r (const void *__restrict __addr, __socklen_t __len,
+      |            ^~~~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:106:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+  106 |   struct hostent_data hdata;
+      |                       ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_d4d51.dir/build.make:78: CMakeFiles/cmTC_d4d51.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d4d51/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYADDR_R_7_REENTRANT failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2010a/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_2010a.dir/build.make CMakeFiles/cmTC_2010a.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2010a.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYADDR_R_7_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_2010a.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:96:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   96 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:131:65: warning: passing argument 7 of ‘gethostbyaddr_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+  131 |   hp = gethostbyaddr_r(address, length, type, &h, buffer, 8192, &h_errnop);
+      |                                                                 ^~~~~~~~~
+      |                                                                 |
+      |                                                                 int *
+In file included from /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:93:
+/usr/include/netdb.h:174:57: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  174 |                             struct hostent **__restrict __result,
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:131:8: error: too few arguments to function ‘gethostbyaddr_r’
+  131 |   hp = gethostbyaddr_r(address, length, type, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+/usr/include/netdb.h:170:12: note: declared here
+  170 | extern int gethostbyaddr_r (const void *__restrict __addr, __socklen_t __len,
+      |            ^~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_2010a.dir/build.make:78: CMakeFiles/cmTC_2010a.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2010a/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3 failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d257f/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_d257f.dir/build.make CMakeFiles/cmTC_d257f.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d257f.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_3  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_d257f.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:96:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   96 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:106:23: error: storage size of ‘hdata’ isn’t known
+  106 |   struct hostent_data hdata;
+      |                       ^~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:141:8: error: too few arguments to function ‘gethostbyname_r’
+  141 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:93:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:106:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+  106 |   struct hostent_data hdata;
+      |                       ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_d257f.dir/build.make:78: CMakeFiles/cmTC_d257f.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d257f/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5 failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_924b8/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_924b8.dir/build.make CMakeFiles/cmTC_924b8.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_924b8.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_5  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_924b8.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:96:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   96 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:144:51: warning: passing argument 5 of ‘gethostbyname_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+  144 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |                                                   ^~~~~~~~~
+      |                                                   |
+      |                                                   int *
+In file included from /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:93:
+/usr/include/netdb.h:180:57: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  180 |                             struct hostent **__restrict __result,
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:144:8: error: too few arguments to function ‘gethostbyname_r’
+  144 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_924b8.dir/build.make:78: CMakeFiles/cmTC_924b8.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_924b8/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_42d8a/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_42d8a.dir/build.make CMakeFiles/cmTC_42d8a.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42d8a.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_3_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_42d8a.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:96:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   96 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:106:23: error: storage size of ‘hdata’ isn’t known
+  106 |   struct hostent_data hdata;
+      |                       ^~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:141:8: error: too few arguments to function ‘gethostbyname_r’
+  141 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:93:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:106:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+  106 |   struct hostent_data hdata;
+      |                       ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_42d8a.dir/build.make:78: CMakeFiles/cmTC_42d8a.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_42d8a/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f8e26/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_f8e26.dir/build.make CMakeFiles/cmTC_f8e26.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8e26.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_5_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_f8e26.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:96:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   96 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:144:51: warning: passing argument 5 of ‘gethostbyname_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+  144 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |                                                   ^~~~~~~~~
+      |                                                   |
+      |                                                   int *
+In file included from /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:93:
+/usr/include/netdb.h:180:57: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  180 |                             struct hostent **__restrict __result,
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:144:8: error: too few arguments to function ‘gethostbyname_r’
+  144 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_f8e26.dir/build.make:78: CMakeFiles/cmTC_f8e26.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f8e26/fast] Error 2
+
+
+Performing Curl Test HAVE_INET_NTOA_R_DECL failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4a8b3/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_4a8b3.dir/build.make CMakeFiles/cmTC_4a8b3.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a8b3.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_INET_NTOA_R_DECL  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_4a8b3.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:238:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  238 | typedef void (*func_type)();
+      | ^~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:240:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  240 | int main()
+      |     ^~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:244:21: error: ‘inet_ntoa_r’ undeclared (first use in this function); did you mean ‘inet_ntoa’?
+  244 |   func = (func_type)inet_ntoa_r;
+      |                     ^~~~~~~~~~~
+      |                     inet_ntoa
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:244:21: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_4a8b3.dir/build.make:78: CMakeFiles/cmTC_4a8b3.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4a8b3/fast] Error 2
+
+
+Performing Curl Test HAVE_INET_NTOA_R_DECL_REENTRANT failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_36681/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_36681.dir/build.make CMakeFiles/cmTC_36681.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36681.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_INET_NTOA_R_DECL_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_36681.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:254:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  254 | typedef void (*func_type)();
+      | ^~~~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:256:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  256 | int main()
+      |     ^~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:260:22: error: ‘inet_ntoa_r’ undeclared (first use in this function); did you mean ‘inet_ntoa’?
+  260 |   func = (func_type)&inet_ntoa_r;
+      |                      ^~~~~~~~~~~
+      |                      inet_ntoa
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:260:22: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_36681.dir/build.make:78: CMakeFiles/cmTC_36681.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_36681/fast] Error 2
+
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7e7f6/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_7e7f6.dir/build.make CMakeFiles/cmTC_7e7f6.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e7f6.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GLIBC_STRERROR_R  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_7e7f6.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:515:6: warning: no previous prototype for ‘check’ [-Wmissing-prototypes]
+  515 | void check(char c) {}
+      |      ^~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘check’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:515:17: warning: unused parameter ‘c’ [-Wunused-parameter]
+  515 | void check(char c) {}
+      |            ~~~~~^
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: At top level:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:518:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  518 | main () {
+      | ^~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:521:51: error: subscripted value is neither array nor pointer nor vector
+  521 |   check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+      |                                                   ^
+gmake[1]: *** [CMakeFiles/cmTC_7e7f6.dir/build.make:78: CMakeFiles/cmTC_7e7f6.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7e7f6/fast] Error 2
+
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cec82/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_cec82.dir/build.make CMakeFiles/cmTC_cec82.dir/build
+gmake[1]: Entering directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cec82.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_BUILTIN_AVAILABLE  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERR_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SGTTY_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -o CMakeFiles/cmTC_cec82.dir/CurlTests.c.o -c /home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:567:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  567 | main() {
+      | ^~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c: In function ‘main’:
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:568:6: warning: implicit declaration of function ‘__builtin_available’; did you mean ‘__builtin_scalbl’? [-Wimplicit-function-declaration]
+  568 |   if(__builtin_available(macOS 10.12, *)) {}
+      |      ^~~~~~~~~~~~~~~~~~~
+      |      __builtin_scalbl
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:568:6: warning: nested extern declaration of ‘__builtin_available’ [-Wnested-externs]
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:568:26: error: ‘macOS’ undeclared (first use in this function)
+  568 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                          ^~~~~
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:568:26: note: each undeclared identifier is reported only once for each function it appears in
+/home/ipsit-p-subudhi/Desktop/implot_demos/_deps/curl-src/CMake/CurlTests.c:568:31: error: expected ‘)’ before numeric constant
+  568 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                         ~     ^~~~~~
+      |                               )
+gmake[1]: *** [CMakeFiles/cmTC_cec82.dir/build.make:78: CMakeFiles/cmTC_cec82.dir/CurlTests.c.o] Error 1
+gmake[1]: Leaving directory '/home/ipsit-p-subudhi/Desktop/implot_demos/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_cec82/fast] Error 2
+
+
