@@ -17,10 +17,10 @@ cd vcpkg\
 
 **2. Run the bootstrap script**
 ```shell
-On Windows\
-.\bootstrap-vcpkg.bat\
-On Linux/MacOS\
-./bootstrap-vcpkg.sh\
+On Windows
+.\bootstrap-vcpkg.bat
+On Linux/MacOS
+./bootstrap-vcpkg.sh
 ```
 
 
