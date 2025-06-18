@@ -1,16 +1,15 @@
 # downscale
 
-##**Requirements**
+##Requirements 
 
 The following things are required to be pre-installed in the PC\
 1.CMake\
-2.vcpkg\
+2.vcpkg
 
-CMake can be installed from the cmake website and the environment variables can be adjusted accordingly
-and for the vcpkg one should run the following commands
+CMake can be installed from the cmake website and the environment variables can be adjusted accordingly and for the vcpkg one should run the following commands
  
 
-1.Clone the repository and go inside the vcpkg folder
+**1.Clone the repository and go inside the vcpkg folder**
 
 **git clone https://github.com/microsoft/vcpkg.git
 cd vcpkg
