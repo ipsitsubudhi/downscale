@@ -38,11 +38,11 @@ export PATH=$VCPKG_ROOT:$PATH
 Otherwise other than setting the environment variables in the terminal\
 One can adjust these on CMakePresets.json in the following lines\
         **"CMAKE_TOOLCHAIN_FILE": "/opt/vcpkg/scripts/buildsystems/vcpkg.cmake"** \
-        **"VCPKG_ROOT": "/opt/vcpkg"** \
+        **"VCPKG_ROOT": "/opt/vcpkg"** 
 
 
 
-After doing all this in the demos folder and in the graph.cpp file 
+**After doing all this in the demos folder and in the graph.cpp file** \
 adjust the Line 143 and give the suitable location of the CSV file that is meant to be read
 and also adjust the Lines 170 for the total number of columns in the CSV files
 and Line 172 and Line 173 refer to the required columns numbers in the x-Axis and y-Axis vectors
