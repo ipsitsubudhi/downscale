@@ -11,9 +11,8 @@ CMake can be installed from the cmake website and the environment variables can 
 
 **1.Clone the repository and go inside the vcpkg folder**
 
-**git clone https://github.com/microsoft/vcpkg.git \
-cd vcpkg
-**
+git clone https://github.com/microsoft/vcpkg.git \
+cd vcpkg\
 **2. Run the bootstrap script**
 
 On Windows\
