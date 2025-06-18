@@ -57,14 +57,15 @@ remove the build folder by the command\
 **rm -rf build** if it exists\
 and then run the following commands\
 ``` shell
-**mkdir build
+mkdir build
 cd build
-cmake ..**
+cmake ..
 ```
 
-and once it installs all the required dependencies
-build the program by the following ways 
-
-**cd ..
+and once it installs all the required dependencies\
+build the program by the following ways\
+```shell
+cd ..
 cd build
-./graph**
+./graph
+```
