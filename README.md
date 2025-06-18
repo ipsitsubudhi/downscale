@@ -11,15 +11,15 @@ CMake can be installed from the cmake website and the environment variables can 
 
 **1.Clone the repository and go inside the vcpkg folder**
 
-**git clone https://github.com/microsoft/vcpkg.git
+**git clone https://github.com/microsoft/vcpkg.git\
 cd vcpkg
 **
-2. Run the bootstrap script
+**2. Run the bootstrap script**
 
-On Windows
-.\bootstrap-vcpkg.bat
-On Linux/MacOS
-./bootstrap-vcpkg.sh
+On Windows\
+**.\bootstrap-vcpkg.bat**\
+On Linux/MacOS\
+**./bootstrap-vcpkg.sh**
 
 
 3.Add vcpkg to your environment
