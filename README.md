@@ -43,20 +43,24 @@ One can adjust these on CMakePresets.json in the following lines\
 
 
 **After doing all this in the demos folder and in the graph.cpp file** \
+
+```shell
 adjust the Line 143 and give the suitable location of the CSV file that is meant to be read
 and also adjust the Lines 170 for the total number of columns in the CSV files
 and Line 172 and Line 173 refer to the required columns numbers in the x-Axis and y-Axis vectors
+```
 
 
-and after all this
+and after all this\
 
-remove the build folder by the command
-**rm -rf build** if it exists
-and then run the following commands
-
+remove the build folder by the command\
+**rm -rf build** if it exists\
+and then run the following commands\
+``` shell
 **mkdir build
 cd build
 cmake ..**
+```
 
 and once it installs all the required dependencies
 build the program by the following ways 
