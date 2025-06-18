@@ -24,7 +24,8 @@ On Linux/MacOS
 ```
 
 
-3.Add vcpkg to your environment
+**3.Add vcpkg to your environment**
+```shell
 On Windows
 set "VCPKG_ROOT=C:\path\to\vcpkg"
 set PATH=%VCPKG_ROOT%;%PATH%
@@ -32,6 +33,7 @@ set PATH=%VCPKG_ROOT%;%PATH%
 On Linux
 export VCPKG_ROOT=/path/to/vcpkg
 export PATH=$VCPKG_ROOT:$PATH
+```
 
 Otherwise other than setting the environment variables in the terminal
 One can adjust these on CMakePresets.json in the following lines
