@@ -1,6 +1,6 @@
 # downscale
 
-##Requirements 
+## Requirements 
 
 The following things are required to be pre-installed in the PC\
 1.CMake\
