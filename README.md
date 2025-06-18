@@ -35,10 +35,10 @@ export VCPKG_ROOT=/path/to/vcpkg
 export PATH=$VCPKG_ROOT:$PATH
 ```
 
-Otherwise other than setting the environment variables in the terminal
-One can adjust these on CMakePresets.json in the following lines
-        **"CMAKE_TOOLCHAIN_FILE": "/opt/vcpkg/scripts/buildsystems/vcpkg.cmake"**
-        **"VCPKG_ROOT": "/opt/vcpkg"**
+Otherwise other than setting the environment variables in the terminal\
+One can adjust these on CMakePresets.json in the following lines\
+        **"CMAKE_TOOLCHAIN_FILE": "/opt/vcpkg/scripts/buildsystems/vcpkg.cmake"** \
+        **"VCPKG_ROOT": "/opt/vcpkg"** \
 
 
 
